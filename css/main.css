@@ -12,7 +12,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
 }
@@ -49,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 3px solid #98b4be;
     padding: 10px 0;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .header_title p {
@@ -91,10 +91,69 @@ h1, h2, h3, h4, h5, h6 {
     border: 0;
 }
 
-/* .about {
-    background: url('../img/man.jpg') no-repeat;
-    height: 1000px;
-} */
+.process {
+    background: #f6f6f6;
+    text-align: center;
+    padding: 5px;
+}
+
+.process h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.process_images {
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.process p {
+    font-size: 16px;
+    color: #494949;
+    margin-top: 35px;
+}
+
+.wp_elems {
+    width: 275px;
+    height: 275px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.wp_elems p {
+    color: white;
+}
+
+.wp_elems img {
+    margin-top: 35%;
+}
+
+.design {
+    background: #10c6fc;
+}
+
+.development {
+    background: #835aeb;
+}
+
+.testing {
+    background: #002453;
+}
+
+.launch {
+    background: #ff2b4a;
+}
+
+.footer {
+    background: #222222;
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
 
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
