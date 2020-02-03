@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header {
+    background: url('../img/bg.jpg');
+    min-height: 100vh;
+    background-size: 100%;
+    padding: 5px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.header_top span {
+    color: white;
+    margin: auto 0;
+}
+
+.header_title {
+    text-align: center;
+}
+
+.header_title h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    margin-top: 320px;
+    border-top: 3px solid #98b4be;
+    border-bottom: 3px solid #98b4be;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.header_title p {
+    color: #c2d2d8;
+    font-size: 25px;
+}
+
+.about {
+    margin-top: 120px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_text {
+    width: 660px;
+}
+
+.about_text h3 {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.about_text p {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 200px;
+    height: 45px;
+    margin-top: 70px;
+    background: #ff2b4a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    border: 0;
+}
+
+/* .about {
+    background: url('../img/man.jpg') no-repeat;
+    height: 1000px;
+} */
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
